@@ -17,3 +17,57 @@ h2{
     color: rgb(210, 149, 215);
     background-color: rgb(165, 28, 229);
 }
+li.w-64 {
+    border: 2px solid #d41010; /* Bordure noire plus marquée */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 30px; /* Espacement interne */
+    text-align: center; /* Centre le contenu */
+    background-color: #ef28b3; /* Fond clair */
+    
+}
+li.w-64 img {
+   
+    border-radius: 5px; /* Coins arrondis */
+    
+}
+
+li.w-64 {
+    
+    max-width: 250px; /* Limite la largeur */
+    text-align: center; /* Centre le contenu */
+    background-image: url('https://www.chartsinfrance.net/style/breves/5/photo_1450784700.jpg'); /* Image en ligne */
+    background-size: cover; /* L'image couvre tout le conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    
+}
+/* Conteneur principal de la boîte (associé à une classe existante ou un ID du HTML) */
+body::before {
+    content: "OEEEEE LA TEAM JUL "; /* Message du popup */
+    position: fixed;
+    top: 50%; /* Centre verticalement */
+    left: 50%; /* Centre horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste pour centrer parfaitement */
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px; /* Espacement interne */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre */
+    font-size: 16px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    z-index: 1000; /* Met au-dessus de tout */
+    visibility: visible; /* Visible par défaut */
+    opacity: 1; /* Totalement opaque */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    width: 400px; /* Largeur de la boîte */
+    height: auto; /* Hauteur automatique pour s'adapter au contenu */
+    padding: 30px; /* Augmenter l'espacement interne */
+    font-size: 18px; /* Texte légèrement plus grand */
+}
+
+
+
+
+
+
+
