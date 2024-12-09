@@ -1,3 +1,7 @@
+  
+#AIT_MELLOUK {
+    background-color: #87CEEB;
+}
 
 body
 {
@@ -17,6 +21,7 @@ h2{
     color: rgb(210, 149, 215);
     background-color: rgb(165, 28, 229);
 }
+<<<<<<< HEAD
 li.w-64 {
     border: 2px solid #d41010; /* Bordure noire plus marquée */
     border-radius: 10px; /* Coins arrondis */
@@ -71,3 +76,15 @@ body::before {
 
 
 
+=======
+#URIOT {background-color : blue;}
+
+body
+{
+
+   color: rgb(14, 18, 102);
+   background-color: beige(150, 151, 77);
+
+}
+
+>>>>>>> b8d7a82ac6acf38ff757d1de6a00cb4b4a23ba57
